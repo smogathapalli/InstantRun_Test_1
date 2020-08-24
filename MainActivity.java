@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         int y = 20;
         int z = 30;
         int i = 40;
+        int j = 50;
 
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
